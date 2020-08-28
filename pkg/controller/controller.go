@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/cluster"
-	"github.com/coreos/etcd-operator/pkg/generated/clientset/versioned"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/DataDog/etcd-operator/pkg/cluster"
+	"github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned"
+	"github.com/DataDog/etcd-operator/pkg/util/k8sutil"
 
 	"github.com/sirupsen/logrus"
 	apiextensionsclient "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"

@@ -19,8 +19,8 @@ limitations under the License.
 package etcd
 
 import (
-	v1beta2 "github.com/coreos/etcd-operator/pkg/generated/informers/externalversions/etcd/v1beta2"
-	internalinterfaces "github.com/coreos/etcd-operator/pkg/generated/informers/externalversions/internalinterfaces"
+	v1beta2 "github.com/DataDog/etcd-operator/pkg/generated/informers/externalversions/etcd/v1beta2"
+	internalinterfaces "github.com/DataDog/etcd-operator/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

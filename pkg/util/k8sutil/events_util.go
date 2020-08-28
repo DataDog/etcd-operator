@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/DataDog/etcd-operator/pkg/util/constants"
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned"
-	etcdv1beta2 "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
-	fakeetcdv1beta2 "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2/fake"
+	clientset "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned"
+	etcdv1beta2 "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
+	fakeetcdv1beta2 "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

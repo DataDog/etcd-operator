@@ -21,10 +21,10 @@ package v1beta2
 import (
 	time "time"
 
-	etcdv1beta2 "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	versioned "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/coreos/etcd-operator/pkg/generated/informers/externalversions/internalinterfaces"
-	v1beta2 "github.com/coreos/etcd-operator/pkg/generated/listers/etcd/v1beta2"
+	etcdv1beta2 "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	versioned "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/DataDog/etcd-operator/pkg/generated/informers/externalversions/internalinterfaces"
+	v1beta2 "github.com/DataDog/etcd-operator/pkg/generated/listers/etcd/v1beta2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

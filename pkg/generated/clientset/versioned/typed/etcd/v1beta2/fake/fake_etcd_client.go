@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1beta2 "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
+	v1beta2 "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

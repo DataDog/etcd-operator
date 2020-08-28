@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/util/etcdutil"
-	"github.com/coreos/etcd-operator/pkg/util/retryutil"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/DataDog/etcd-operator/pkg/util/etcdutil"
+	"github.com/DataDog/etcd-operator/pkg/util/retryutil"
 	"github.com/pborman/uuid"
 
 	appsv1beta1 "k8s.io/api/apps/v1beta1"
@@ -430,7 +430,7 @@ func MustNewKubeClient() kubernetes.Interface {
 
 func InClusterConfig() (*rest.Config, error) {
 	// Work around https://github.com/kubernetes/kubernetes/issues/40973
-	// See https://github.com/coreos/etcd-operator/issues/731#issuecomment-283804819
+	// See https://github.com/DataDog/etcd-operator/issues/731#issuecomment-283804819
 	if len(os.Getenv("KUBERNETES_SERVICE_HOST")) == 0 {
 		addrs, err := net.LookupHost("kubernetes.default.svc")
 		if err != nil {

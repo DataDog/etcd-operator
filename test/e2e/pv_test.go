@@ -18,12 +18,12 @@ import (
 	"os"
 	"testing"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/coreos/etcd-operator/test/e2e/e2eutil"
-	"github.com/coreos/etcd-operator/test/e2e/framework"
+	"github.com/DataDog/etcd-operator/test/e2e/e2eutil"
+	"github.com/DataDog/etcd-operator/test/e2e/framework"
 )
 
 func TestCreateClusterWithPV(t *testing.T) {

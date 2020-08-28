@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	etcdv1beta2 "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
+	etcdv1beta2 "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

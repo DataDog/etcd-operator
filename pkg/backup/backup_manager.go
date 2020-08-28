@@ -21,8 +21,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/coreos/etcd-operator/pkg/backup/writer"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
+	"github.com/DataDog/etcd-operator/pkg/backup/writer"
+	"github.com/DataDog/etcd-operator/pkg/util/constants"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/sirupsen/logrus"

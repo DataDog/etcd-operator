@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	etcdv1beta2 "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
+	etcdv1beta2 "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned/typed/etcd/v1beta2"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
