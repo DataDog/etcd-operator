@@ -19,8 +19,8 @@ limitations under the License.
 package v1beta2
 
 import (
-	v1beta2 "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	scheme "github.com/coreos/etcd-operator/pkg/generated/clientset/versioned/scheme"
+	v1beta2 "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	scheme "github.com/DataDog/etcd-operator/pkg/generated/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

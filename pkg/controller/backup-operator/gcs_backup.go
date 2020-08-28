@@ -19,10 +19,10 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/backup"
-	"github.com/coreos/etcd-operator/pkg/backup/writer"
-	"github.com/coreos/etcd-operator/pkg/util/gcputil/gcsfactory"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/DataDog/etcd-operator/pkg/backup"
+	"github.com/DataDog/etcd-operator/pkg/backup/writer"
+	"github.com/DataDog/etcd-operator/pkg/util/gcputil/gcsfactory"
 
 	"k8s.io/client-go/kubernetes"
 )

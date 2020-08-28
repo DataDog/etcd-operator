@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/coreos/etcd-operator/pkg/backup/util"
+	"github.com/DataDog/etcd-operator/pkg/backup/util"
 
 	"cloud.google.com/go/storage"
 	"github.com/sirupsen/logrus"

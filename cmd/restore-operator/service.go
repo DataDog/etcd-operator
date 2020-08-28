@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
+	"github.com/DataDog/etcd-operator/pkg/util/k8sutil"
 
 	"github.com/pkg/errors"
 	"k8s.io/api/core/v1"

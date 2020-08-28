@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
 
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/util/wait"

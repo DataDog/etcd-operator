@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"cloud.google.com/go/storage"
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
+	api "github.com/DataDog/etcd-operator/pkg/apis/etcd/v1beta2"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/option"
 
